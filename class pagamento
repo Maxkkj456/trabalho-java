@@ -1,0 +1,28 @@
+public class Pagamento {
+    private int id;
+    private double valortotal;
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public double getValortotal() {
+        return valortotal;
+    }
+
+    public void setValortotal(double valortotal) {
+        this.valortotal = valortotal;
+    }
+
+    @Override
+    public String toString() {
+        return "Pagamneto{" +
+                "id=" + id +
+                ", valortotal=" + valortotal +
+                '}';
+    }
+}
