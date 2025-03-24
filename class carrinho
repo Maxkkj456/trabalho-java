@@ -1,0 +1,38 @@
+public class Carrinho {
+    private int id;
+    private int quantidade;
+    private String produto;
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public int getQuantidade() {
+        return quantidade;
+    }
+
+    public void setQuantidade(int quantidade) {
+        this.quantidade = quantidade;
+    }
+
+    public String getProduto() {
+        return produto;
+    }
+
+    public void setProduto(String produto) {
+        this.produto = produto;
+    }
+
+    @Override
+    public String toString() {
+        return "Carrinho{" +
+                "id=" + id +
+                ", quantidade=" + quantidade +
+                ", produto='" + produto + '\'' +
+                '}';
+    }
+}
